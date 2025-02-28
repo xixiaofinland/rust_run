@@ -15,7 +15,7 @@ ability by practicing.
 
 Two, I see a similar trait from Rust. High-level ergonomics like type inference,
 concurrency without data races, and low-level control like memory allocation,
-which seemingly conflicts, both appear in this language.
+which seemingly conflict, both show up in this language.
 
 ## How to read
 
