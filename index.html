@@ -153,29 +153,61 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
-<p>Hi there, I'm <a href="http://xixiao.info">Xi Xiao</a>. This is a book to record my learnings
-of <a href="https://www.rust-lang.org/">Rust-lang</a>.</p>
-<p>This book exists from two reasons.</p>
-<p>One, I want to learn how to communicate in writing. I'm really interested in how
-great books, like <a href="https://www.amazon.com/Flowers-Algernon-Daniel-Keyes/dp/015603008X">Flowers for Algernon</a>, <a href="https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592,">The Phoenix Project</a>, or
-<a href="https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612?s=books&amp;sr=1-1">Design Patterns</a>, convey information in a vivid yet simple manner. I think
-this is a pretty huge ability! We're often taught, that there exist tradeoffs
-when we make choices, and "powerful but complex" is a very common tradeoff. But
-I see <em>powerful</em> and <em>simple</em> from these books, and I'd like to approach this
-ability by practicing.</p>
-<p>Two, I see a similar trait from Rust. High-level ergonomics like type inference,
-concurrency without data races, and low-level control like memory allocation,
-which seemingly conflict, both show up in this language.</p>
+<p>Hi there, I'm <a href="http://xixiao.info">Xi Xiao</a>. This is my journey learning
+<a href="https://www.rust-lang.org/">Rust</a>.</p>
+<p>I created this book for three reasons.</p>
+<p>First, I want to become a better writer. Books, like <a href="https://www.amazon.com/Flowers-Algernon-Daniel-Keyes/dp/015603008X">Flowers for Algernon</a>
+and <a href="https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592">The Phoenix Project</a> amazed me. They explain complex ideas through
+simple words that still hit hard. They prove we don't need fancy language to
+convey thoughts.</p>
+<p>This skill seems magical to me! We often hear that things must be complex to be
+powerful. But these books are both simple AND powerful. I'm writing this book to
+practice this rare combination.</p>
+<p>Second, I love Rust. The language gives you modern features like type inference
+and safe concurrency that make coding pleasant. But it also offers the low-level
+control needed for system programming. Powerful yet approachable - just like the
+writing style I admire.</p>
+<p>Third, Rust isn't like other languages I've learned. It's complex enough to be
+worth breaking down into bite-sized pieces. By sharing my journey, I hope to
+make it more accessible for you too.</p>
 <h2 id="how-to-read"><a class="header" href="#how-to-read">How to read</a></h2>
-<p>The content of this book is split up into a few different sections. I attempt to
-make sure that similar concepts are orgnized in the same section, and sections
-are from simple to complex. But I'm not your dad, feel free to jump around and
-cherry pick.</p>
-<h2 id="color-theme"><a class="header" href="#color-theme">Color theme</a></h2>
-<p>The book is built with <a href="https://github.com/rust-lang/mdBook">mdbook</a>.</p>
-<h2 id="code-samples"><a class="header" href="#code-samples">Code samples</a></h2>
-<p>With that said, I hope you enjoy reading this book and get useful content
-out of it!</p>
+<p>I've organized related concpets together, but I'm not your dad - feel free to
+jump around and focus on whatever interests you most.</p>
+<p>I love reading with a dark color theme. You can change themes by clicking the
+paint brush icon (<i class="fa fa-paint-brush"></i>) in the top-left menu bar.</p>
+<p>Need to find something specific? Press the search icon (<i class="fa
+fa-search"></i>) or hit the <code>S</code> key on the keyboard to open an input box. As you
+type, matching content appears instantly.</p>
+<h2 id="code-blocks"><a class="header" href="#code-blocks">Code blocks</a></h2>
+<p>Code blocks may contain icons for interacting purpose:</p>
+<div class="table-wrapper"><table><thead><tr><th>Icon</th><th>Description</th></tr></thead><tbody>
+<tr><td><i class="fa fa-copy"></i></td><td>Copy the code</td></tr>
+<tr><td><i class="fa fa-play"></i></td><td>Execute and display the output</td></tr>
+<tr><td><i class="fa fa-eye"></i></td><td>Toggle visibility of hidden lines</td></tr>
+<tr><td><i class="fa fa-history"></i></td><td>For editable code blocks, this undos changes you have made</td></tr>
+</tbody></table>
+</div>
+<p>Here are examples.</p>
+<ol>
+<li>A code block that you can copy and execute:</li>
+</ol>
+<pre><pre class="playground"><code class="language-rust">fn main() {
+    println!("Hello, I'm the non-editable code block!");
+}</code></pre></pre>
+<ol start="2">
+<li>A code block that you can also edit and undo:</li>
+</ol>
+<pre><pre class="playground"><code class="language-rust  editable">fn main() {
+    println!("Click on me and edit!");
+}</code></pre></pre>
+<ol start="3">
+<li>A code block with a hidden line:</li>
+</ol>
+<pre><pre class="playground"><code class="language-rust">fn main() {
+    println!("I have a hidden line, find it out!");
+<span class="boring">    // a hidden comment line here
+</span>}</code></pre></pre>
+<p>That said, let's get on with it!</p>
 
                     </main>
 
